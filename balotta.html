@@ -2,9 +2,84 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/dettaglioBirra.css">
+        <link rel="stylesheet" href="styles/balotta.css">
         <title>BALOTTA - blanche</title>
+        <link rel="icon" href="assets/logoWhite.svg"/>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-41G6YLMYY1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-41G6YLMYY1');
+        </script>
     </head>
     <body>
-        <h1 style="text-align: center; color: var(--balotta)">WORK IN PROGRESS...</h1>
+        <header>
+            <a class="defaultCursor" href="index.html">
+                <img class="logo" src="assets/logoEsteso.svg">    
+            </a>
+        </header>
+        
+        <div class="container flex">
+            <div class="padded productContainer">
+                <img class="fotoBirra" src="assets/balottaBorder.png">
+            </div>
+            <div class="basicInfo padded">
+                <div class="halfHeight">
+                    <h1>
+                        balotta
+                    </h1>
+                    <h2>
+                        blanche/witbier
+                    </h2>
+                    <h5>
+                        IBU 20
+                    </h5>
+                    <h5>
+                        4,5%
+                    </h5>
+                    <h5>
+                        33cl
+                    </h5>
+                </div>
+                <div class="halfHeight">
+                    <div class="centerText beerDescription fontMedio">
+                        <span>
+                            acqua, malto d'orzo, fiocchi di frumento, zucchero, luppolo, scorza di bergamotto, scorza di 
+                            limone, semi di coriandolo e lievito
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="spacer50px"></div>
+        <div class="container flex">
+            <div class="bottomDesc">
+                <h3>Come conservarla</h3>
+                <div class="justifyText fontMedio">
+                    Tenere in un luogo fresco inferiore a 10°C e al riparo dal sole. 
+                </div>
+            </div>
+            <div class="bottomDesc">
+                <h3>Come e' nata</h3>
+                <div class="justifyText fontMedio">
+                    Il giorno del mio compleanno mi trovavo in un pub con gli amici a bere una blanche al bergamotto. 
+                    Avrei voluto ordinarne a volonta' ma dopo un po' la bocca iniziava ad appesantirsi: volevo infatti bere 
+                    una birra fresca (come il limone), aromatica (come il bergamotto e il coriandolo), beverina e leggera ma 
+                    allo stesso tempo saporita. Ecco quindi come nasce l'idea della Balotta. 
+                </div>
+            </div>
+
+        </div>
+        <footer>
+            <a class="defaultCursor" href="index.html">
+                <img class="backIcon defaultCursor" src="assets/back.svg">    
+            </a>
+        </footer>
+
+        
     </body>
 </html>

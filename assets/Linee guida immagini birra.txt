@@ -1,0 +1,1 @@
+Le immagini delle birre hanno un bordo fatto riducendo la selezione di 10px e applicando un bordo di 20px

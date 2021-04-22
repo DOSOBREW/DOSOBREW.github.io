@@ -2,9 +2,81 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles/style.css">
-        <title>BAZZA - weizen</title>        
+        <link rel="stylesheet" href="styles/dettaglioBirra.css">
+        <link rel="stylesheet" href="styles/bazza.css">
+        <title>BAZZA - weizen</title>
+        <link rel="icon" href="assets/logoWhite.svg"/>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-41G6YLMYY1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-41G6YLMYY1');
+        </script>
     </head>
     <body>
-        <h1 style="text-align: center; color: var(--bazza)">WORK IN PROGRESS...</h1>
+        <header>
+            <a class="defaultCursor" href="index.html">
+                <img class="logo" src="assets/logoEsteso.svg">    
+            </a>
+        </header>
+        
+        <div class="container flex">
+            <div class="padded productContainer">
+                <img class="fotoBirra" src="assets/bazzaBorder.png">
+            </div>
+            <div class="basicInfo padded">
+                <div class="halfHeight">
+                    <h1>
+                        bazza
+                    </h1>
+                    <h2>
+                        weizen
+                    </h2>
+                    <h5>
+                        IBU 20
+                    </h5>
+                    <h5>
+                        4,5%
+                    </h5>
+                    <h5>
+                        33cl
+                    </h5>
+                </div>
+                <div class="halfHeight">
+                    <div class="centerText beerDescription fontMedio">
+                        <span>acqua, malto d'orzo e di frumento, zucchero, luppolo e lievito</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="spacer50px"></div>
+        <div class="container flex">
+            <div class="bottomDesc">
+                <h3>Come conservarla</h3>
+                <div class="justifyText fontMedio">
+                    Tenere in un luogo fresco inferiore a 10°C e al riparo dal sole. 
+                </div>
+            </div>
+            <div class="bottomDesc">
+                <h3>Come e' nata</h3>
+                <div class="justifyText fontMedio">
+                    Mi sono sempre piaciute le weizen commerciali. Purtroppo, non sono mai riuscito 
+                    a berne piu' di mezzo litro a causa del sapore molto forte e corposo, che finiva sempre per 
+                    stancarmi. Da qui nasce l'idea della Bazza, una birra ben bilanciata, con il retrogusto di 
+                    banana e, soprattutto, facile da bere.
+                </div>
+            </div>
+
+        </div>
+        <footer>
+            <a class="defaultCursor" href="index.html">
+                <img class="backIcon defaultCursor" src="assets/back.svg">    
+            </a>
+        </footer>
+
+        
     </body>
 </html>

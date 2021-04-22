@@ -1,0 +1,9 @@
+* {
+    background-color: var(--bazza);
+}
+
+@media screen and (min-width: 1101px) {
+    .fotoBirra{
+        width: 50%;
+    }
+}

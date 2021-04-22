@@ -1,0 +1,132 @@
+/* ########################## */
+/* #        COMMONS         # */
+/* ########################## */
+
+@media screen and (min-width: 1101px) {
+    h1{
+        font-size: 150px;
+        margin: 0;
+    }
+
+    h3{
+        font-size: 40px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    h1{
+        font-size: 100px;
+        margin: 0;
+    }
+
+    h3{
+        font-size: 40px;
+        margin: 0;
+        margin-top: 40px;
+    }
+}
+
+.backIcon{
+    height: 70px;
+    padding-left: 50px;
+}
+
+.spacer50px{
+    height: 50px;
+}
+
+/* ########################## */
+/* #       SEZ. BIRRA       # */
+/* ########################## */
+
+.basicInfo h1, .basicInfo h5, .basicInfo h2{
+    text-align: right;
+}
+
+@media screen and (min-width: 1101px) {
+    .container .productContainer{
+        width: 50%;
+        padding-top: 150px;
+        padding: 50px;
+        margin: auto;
+    }
+    
+    .container .basicInfo{
+        width: 50%;
+    }
+
+    .halfHeight{
+        height: 50%;
+    }
+
+    .beerDescription{
+        padding: 50px 0 50px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    .bottomDesc{
+        width: 50%;
+        padding: 50px;
+    }
+
+}
+
+@media screen and (max-width: 1100px){
+    .container .productContainer{
+        width: 100%;
+        padding: 50px;
+        margin: auto;
+    }
+
+    .fotoBirra{
+        max-height: 50vh;
+    }
+    
+    .container .basicInfo{
+        width: 100%;
+    }
+
+    .beerDescription{
+        padding: 10px; 
+        padding-top: 50px; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    .bottomDesc{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .backIcon{
+        padding: 0;
+    }
+}
+
+.beerDescription span{
+    margin: auto;
+    font-family: 'OstrichSansRounded-Medium';
+}
+
+.productContainer{
+    text-align: center;
+}
+
+/* ########################## */
+/* #        FOOTER         # */
+/* ########################## */
+
+footer{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    max-width: 1400px;
+    width: 90vw;
+}

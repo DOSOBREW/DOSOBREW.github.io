@@ -1,20 +1,209 @@
 <!DOCTYPE html>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-41G6YLMYY1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-41G6YLMYY1');
-</script>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Doso Brew</title>
+    <link rel="icon" href="assets/logoWhite.svg"/>
+    <script src="scripts/general.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-41G6YLMYY1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles/style.css">
-        <title>DOSOBREW</title>        
-    </head>
-    <body>
-        <h1 style="text-align: center;">DOSOBREW - WORK IN PROGRESS...</h1>
-    </body>
+        gtag('config', 'G-41G6YLMYY1');
+    </script>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="assets/logoEsteso.svg">
+    </header>
+
+    <div class="container flex">
+        <div class="containerProfile">
+            <img src="assets/profilePic.jpg">
+        </div>
+        <div class="missionContainer">
+            <div class="justifyText fontMedio">
+                <span>La birra artigianale per tutti i palati.</span>
+                Ciao a tutti! Mi presento: sono Lorenzo, un ragazzo di Bologna con una 
+                grande passione per la birra. Ho voluto approfondire questo interesse 
+                qualificandomi come birraio artigiano presso l’accademia DIEFFE di Padova. 
+                <br><br>
+                Doso Brew nasce come un progetto che si pone lo scopo di sperimentare a 360° 
+                il mondo della birra artigianale, a partire dallo studio delle materie prime 
+                fino ad arrivare al prodotto finale, con l’obiettivo di una crescita personale e professionale.
+            </div>
+        </div>
+    </div>
+
+    <header class="headerListaBirre">
+        <span>Le mie birre</span>
+    </header>
+
+    <div class="container flex">
+        <div class="containerBirra boxBalotta">
+            <a class="defaultCursor" href="balotta.html">
+                <span class="nomeBirra">BALOTTA</span>
+                <span class="tipoBirra">blanche</span>
+            </a>
+        </div>
+        <div class="containerBirra boxBazza">
+            <a class="defaultCursor" href="bazza.html">
+                <span class="nomeBirra">BAZZA</span>
+                <span class="tipoBirra">weizen</span>
+            </a>
+        </div>
+        <div class="containerBirra boxMaraglia">
+            <a class="defaultCursor" href="maraglia.html">
+                <span class="nomeBirra">MARAGLIA</span>
+                <span class="tipoBirra">sour ale</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="container marginSpacer">
+        <div class="justifyText fontMedio flex">
+            <div class="contatto contattoSinistro flex">
+                <div>
+                    <a href="https://www.instagram.com/doso_brew/" target="_blank">
+                        @doso_brew
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/doso_brew/" target="_blank">
+                        <img src="assets/instagramIcon.svg">   
+                    </a>
+                </div>
+            </div>
+            <div class="contatto contattoDestro flex">
+                <div>
+                    <a href="mailto:dosobrew@gmail.com" target="_blank">
+                        <img class="mailIcon" src="assets/mailIcon.svg"> 
+                    </a>
+                </div>
+                <div>
+                    <a href="mailto:dosobrew@gmail.com" target="_blank">
+                        dosobrew@gmail.com
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container marginSpacer">
+        <h3>I miei valori</h3>
+        <div class="justifyText fontMedio">
+            Tutte le birre sono importanti! Infatti ogni bottiglia ha il suo lotto di produzione che ne 
+            identifica il suo ciclo produttivo e il QRcode che porta l'etichetta completa con tutti gli ingredienti, 
+            le modalita' d'uso, di conservazione e le avvertenze del caso.<br>
+            Sono alla continua ricerca di soluzioni per limitare l'inquinamento,
+            cio' si riflette sia nella scelta di riutilizzare le bottiglie vuote, che vengono restituite dai 
+            clienti in cambio di un piccolo sconto sull'ordine successivo, sanificate e riadoperate, sia nell'utilizzo 
+            di etichette piu' piccole per ridurre l'utilizzo di carta e inchiostri.
+            <div class="counterContainer">
+                <span class="labelCounter">Bottiglie riutilizzate fino ad ora</span>
+                <div class="counterUnderline">
+                    <span id="counter">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="display: none;">
+        <h3>Come viene prodotta la mia birra?</h3>
+        <div class="flex">
+            <div class="containerDisegnini fontMedio justifyText">
+                <img src="assets/profilePic.jpg">
+                <span class="titoloDisegno">Macinatura</span>
+                Dopo aver selezionato e pesato i malti necessari per la ricetta, ne 
+                vengono frantumati i chicchi (le cariossidi), facilitando cosi' l'estrazione 
+                dei glucidi. Contemporaneamente, si rompe la cuticola (la parte esterna del chicco) che 
+                contribuira' al filtraggio del mosto.
+            </div>
+            <div class="containerDisegnini fontMedio justifyText">
+                <img src="assets/profilePic.jpg">
+                <span class="titoloDisegno">Ammostamento</span>
+                Si forma una miscela di acqua e malto. Quest'ultima verra' portata a determinati livelli di 
+                temperatura, attivando cosi' i vari enzimi che caratterizzano la birra: schiuma, dolcezza, 
+                sensazione piu' o meno forte di alcool, corposita' ed esaltazione dei sapori maltati.
+            </div>
+            <div class="containerDisegnini fontMedio justifyText">
+                <img src="assets/profilePic.jpg">
+                <span class="titoloDisegno">Filtrazione</span>
+                Il mosto torbido viene messo in un recipiente che ha alla base una piastra filtrante in acciaio. 
+                Dal fondo esce un mosto filtrato ma non ancora "pulito": sara' infatti necessario ripetere il processo piu' 
+                volte rabboccando continuamente il contenitore con il mosto, fino a quando uscira' un composto limpido 
+                (questo procedimento si chiama rimontaggio). Man mano che il mosto limpido viene estratto, e' messo da parte. 
+                Contemporaneamente, il malto "esausto" (trebbie) viene tenuto sommerso aggiungendo acqua calda da sopra (sparging).
+            </div>
+            <div class="containerDisegnini fontMedio justifyText">
+                <img src="assets/profilePic.jpg">
+                <span class="titoloDisegno">Bollitura</span>
+                Il mosto limpido viene fatto bollire per un tempo compreso tra 60 e 90 minuti. Durante questa fase, 
+                in specifici momenti della bollitura vengono aggiunti due "tipi" di luppoli, da amaro e d'aroma, ed eventuali spezie.
+            </div>
+        </div>
+        <!--Seconda riga-->
+        <div class="flex spazioRigaDisegnini">
+            <div class="containerDisegnini fontMedio justifyText">
+                <img src="assets/profilePic.jpg">
+                <span class="titoloDisegno">Whirpool</span>
+                Formando un vortice all'interno del recipiente, si separa la parte solida (luppolo e proteine) dal mosto.
+            </div>
+           
+            <div class="containerDisegnini fontMedio justifyText">
+                <img src="assets/profilePic.jpg">
+                <span class="titoloDisegno">Raffreddamento</span>
+                Il mosto caldo viene raffreddato fino all'esatta temperatura, che si aggira attorno ai 18°C, mediante una serpentina.
+            </div>
+            <div class="containerDisegnini fontMedio justifyText">
+                <img src="assets/profilePic.jpg">
+                <span class="titoloDisegno">Inoculo</span>
+                In un contenitore con acqua sterilizzata vengono aggiunti uno o piu' lieviti secchi, che andranno a caratterizzare 
+                la birra. Dopo qualche minuto, il lievito viene inoculato nel mosto.
+            </div>
+            <div class="containerDisegnini fontMedio justifyText">
+                <img src="assets/profilePic.jpg">
+                <span class="titoloDisegno">Fermentazione</span>
+                I lieviti sprigionano i loro aromi e profumi in base alla temperatura a cui sono stati esposti durante la 
+                fermentazione che, generalmente, dura dall'una alle due settimane. Se necessario, si possono eliminare eventuali 
+                difetti effettuando delle "pause" a particolari temperature.
+            </div>
+        </div>
+         <!--Terza riga-->
+         <div class="flex spazioRigaDisegnini">
+            <div class="containerDisegnini fontMedio justifyText">
+                <img src="assets/profilePic.jpg">
+                <span class="titoloDisegno">Separazione del lievito</span>
+                Una volta completata la fermentazione, si raffredda la birra per far si' che il lievito si depositi sul fondo e 
+                si trasferisce poi in un altro recipiente, facendo particolare attenzione a non spostare anche il lievito depositato. 
+                Per questa ragione, solitamente la prima parte della birra viene scartata.
+            </div>
+            <div class="containerDisegnini fontMedio justifyText">
+                <img src="assets/profilePic.jpg">
+                <span class="titoloDisegno">Imbottigliamento</span>
+                Si prepara un composto di zucchero e acqua da aggiungere alla birra per formare CO2 nella quantita' necessaria 
+                richiesta dalla ricetta. Dopodiche', si imbottiglia.
+            </div>
+            <div class="containerDisegnini fontMedio justifyText">
+                <img src="assets/profilePic.jpg">
+                <span class="titoloDisegno">Maturazione</span>
+                Attraverso la maturazione la birra viene resa "stabile", permettendo una migliore definizione di sapori e profumi. 
+                Questo processo ha una durata variabile a seconda del tipo di birra.
+            </div>
+        </div>
+    </div>
+
+    <footer style="margin-top: 150px;">
+        <a class="defaultCursor" onclick="window.scrollTo(0,0);">
+            <img class="topIcon defaultCursor" src="assets/back.svg">    
+        </a>
+    </footer>
+
+</body>
 </html>
