@@ -1,5 +1,5 @@
 //Numero totale di bottiglie utlizzato per il counter
-var BOTTIGLIE_RIUTILIZZATE = 160;
+var BOTTIGLIE_RIUTILIZZATE = 212;
 
 // Animazione counter bottiglie di birra riutilizzate
 
