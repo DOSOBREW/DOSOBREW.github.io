@@ -1,289 +1,293 @@
-
 /* ########################## */
 /* #        COMMONS         # */
 /* ########################## */
 
-h3{
-    margin-top: 150px;
-    margin-bottom: 15px;
-    font-size: 60px;
+h3 {
+  margin-top: 150px;
+  margin-bottom: 15px;
+  font-size: 60px;
 }
 
 @media screen and (max-width: 1100px) {
-    h3{
-        margin-top: 70px;
-    }
+  h3 {
+    margin-top: 70px;
+  }
 }
 
-.topIcon{
-    height: 70px;
-    transform: rotate(90deg);
+.topIcon {
+  height: 70px;
+  transform: rotate(90deg);
 }
 
-footer{
-    text-align: center;
+footer {
+  text-align: center;
 }
 
 /* ########################## */
 /* #        MISSION         # */
 /* ########################## */
 
-.containerProfile{
-    width: 50%;
-    padding: 80px 80px 0 80px;
-    display: flex;
-    align-items: center;
+.containerProfile {
+  width: 50%;
+  padding: 80px 80px 0 80px;
+  display: flex;
+  align-items: center;
 }
 
-.containerProfile img{
-    border-radius: 50%;
-    width: 100%;
+.containerProfile img {
+  border-radius: 50%;
+  width: 100%;
 }
 
-.missionContainer{
-    width: 50%;
-    padding-top: 80px;
+.missionContainer {
+  width: 50%;
+  padding-top: 80px;
 }
 
-.missionContainer div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
+.missionContainer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
 }
 
-.missionContainer span{
-    font-size: 60px;
-    text-align: left;
-    line-height: 65px;
-    margin-bottom: 20px;
+.missionContainer span {
+  font-size: 60px;
+  text-align: left;
+  line-height: 65px;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 1100px) {
-    .containerProfile, .missionContainer{
-        width: 100%;
-        padding: 30px 0 0 0;
-    }
+  .containerProfile,
+  .missionContainer {
+    width: 100%;
+    padding: 30px 0 0 0;
+  }
 
-    .containerProfile img{
-        max-width: 300px;
-        margin: auto;
-    }
+  .containerProfile img {
+    max-width: 300px;
+    margin: auto;
+  }
 }
 
 /* ########################## */
 /* #    LISTA BIRRE         # */
 /* ########################## */
 
-.headerListaBirre{
-    text-align: center;
-    letter-spacing: 20px;
-    margin-top: 100px;
-    margin-bottom: 50px;
+.headerListaBirre {
+  text-align: center;
+  letter-spacing: 20px;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
-.headerListaBirre span{
+.headerListaBirre span {
+  font-size: 80px;
+}
+
+@media screen and (max-width: 1100px) {
+  .headerListaBirre {
+    margin-top: 50px;
+  }
+
+  .headerListaBirre span {
+    font-size: 60px;
+  }
+}
+
+.containerBirra {
+  width: 33%;
+  margin: auto;
+  padding: 0px 20px 0px 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1100px) {
+  .containerBirra {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.containerBirra a {
+  display: block;
+}
+
+.boxBalotta:hover a,
+.boxBalotta a:hover {
+  color: var(--balotta);
+  box-shadow: 0 10px #000000;
+}
+
+.boxBazza:hover a,
+.boxBazza a:hover {
+  color: var(--bazza);
+  box-shadow: 0 10px #000000;
+}
+
+.boxMaraglia:hover a,
+.boxMaraglia a:hover {
+  color: var(--maraglia);
+  box-shadow: 0 10px #000000;
+}
+
+.nomeBirra {
+  font-size: 100px;
+  display: block;
+}
+
+@media screen and (max-width: 1100px) {
+  .nomeBirra {
     font-size: 80px;
+  }
 }
 
-@media screen and (max-width: 1100px) {
-    .headerListaBirre{
-        margin-top: 50px;
-    }
-
-    .headerListaBirre span{
-        font-size: 60px;
-    }
-}
-
-.containerBirra{
-    width: 33%;
-    margin: auto;
-    padding: 0px 20px 0px 20px;
-    text-align: center;
-}
-
-@media screen and (max-width: 1100px) {
-    .containerBirra{
-        width: 100%;
-        margin-bottom: 10px;
-    }
-}
-
-a, a:visited{
-    text-decoration: none;
-    color: black;
-}
-
-.containerBirra a{
-    display: block;
-}
-
-.boxBalotta:hover a, .boxBalotta a:hover{
-    color: var(--balotta);
-    box-shadow: 0 10px #000000;
-}
-
-.boxBazza:hover a, .boxBazza a:hover{
-    color: var(--bazza);
-    box-shadow: 0 10px #000000;
-}
-
-.boxMaraglia:hover a, .boxMaraglia a:hover{
-    color: var(--maraglia);
-    box-shadow: 0 10px #000000;
-}
-
-.nomeBirra{
-    font-size: 100px;
-    display: block;
-}
-
-@media screen and (max-width: 1100px) {
-    .nomeBirra{
-        font-size: 80px;
-    }
-}
-
-.tipoBirra{
-    font-size: 30px;
-    display: block;
+.tipoBirra {
+  font-size: 30px;
+  display: block;
 }
 
 /* ########################## */
 /* #        CONTATTI        # */
 /* ########################## */
 
-.contatto{
-    text-align: center;
-    width: 50%;
-    padding: 0 50px 0 50px;
-    align-items: center;
+.contatto {
+  text-align: center;
+  width: 50%;
+  padding: 0 50px 0 50px;
+  align-items: center;
 }
 
 @media screen and (max-width: 1100px) {
-    .contatto{
-        width: 100%;
-    }
+  .contatto {
+    width: 100%;
+  }
 
-    .contatto img{
-        margin-top: 10px;
-    }
+  .contatto img {
+    margin-top: 10px;
+  }
 
-    .mailIcon{
-        margin-bottom: -20px;
-    }
+  .mailIcon {
+    margin-bottom: -20px;
+  }
 }
 
-.contattoSinistro{
-    text-align: right;
+.contattoSinistro {
+  text-align: right;
 }
 
-.contattoDestro{
-    text-align: left;
+.contattoDestro {
+  text-align: left;
 }
 
-.contatto img{
-    width: 150px;
+.contatto img {
+  width: 150px;
 }
 
-.contatto.contattoSinistro div:first-child{
-    margin: auto;
-    margin-right: 0px;
+.contatto.contattoSinistro div:first-child {
+  margin: auto;
+  margin-right: 0px;
 }
 
 @media screen and (max-width: 1100px) {
-    .contatto.contattoSinistro div:first-child{
-        margin: auto;
-    }
+  .contatto.contattoSinistro div:first-child {
+    margin: auto;
+  }
 }
 
-.contatto.contattoSinistro div:last-child{
-    margin: auto;
-    margin-left: 20px;
-    margin-right: 20px;
+.contatto.contattoSinistro div:last-child {
+  margin: auto;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.contatto.contattoDestro div:last-child{
-    margin: auto;
-    margin-left: 20px;
-    margin-right: 20px;
+.contatto.contattoDestro div:last-child {
+  margin: auto;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /* ########################## */
 /* #    SEZIONE GREEN       # */
 /* ########################## */
 
-.labelCounter{
-    font-size: 80px;
-    display: block;
+.labelCounter {
+  font-size: 80px;
+  display: block;
 }
 
 @media screen and (max-width: 1100px) {
-    .labelCounter{
-        font-size: 60px;
-    }
+  .labelCounter {
+    font-size: 60px;
+  }
 }
-.counterContainer{
-    text-align: center;
-    margin-top: 40px;
-}
-
-#counter{
-    font-size: 80px;
+.counterContainer {
+  text-align: center;
+  margin-top: 40px;
 }
 
-.counterUnderline{
-    width: 200px;
-    margin: auto;
-    box-shadow: 0 7px var(--green);
+#counter {
+  font-size: 80px;
+}
+
+.counterUnderline {
+  width: 200px;
+  margin: auto;
+  box-shadow: 0 7px var(--green);
 }
 
 /* ########################## */
 /* #    SEZ. PROCEDIMENTO   # */
 /* ########################## */
 
-.containerDisegnini{
-    width: 25%;
-    height: 100%;
-    padding: 15px;
-    font-size: 22px;
+.containerDisegnini {
+  width: 25%;
+  height: 100%;
+  padding: 15px;
+  font-size: 22px;
 }
 
 @media screen and (max-width: 1100px) {
-    .containerDisegnini{
-        width: 100%;
-        padding: 0 0 15px 0;
-    }
-}
-
-.containerDisegnini img{
+  .containerDisegnini {
     width: 100%;
+    padding: 0 0 15px 0;
+    margin-top: 50px;
+  }
 }
 
-.titoloDisegno{
-    font-size: 40px;
-    display: block;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.containerDisegnini img {
+  width: 100%;
 }
 
-.spazioRigaDisegnini{
-    margin-top: 30px;
+.titoloDisegno {
+  font-size: 40px;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.spazioRigaDisegnini {
+  margin-top: 30px;
 }
 
 @media screen and (max-width: 1100px) {
-    .spazioRigaDisegnini{
-        margin-top: 0;
-    }
+  .spazioRigaDisegnini {
+    margin-top: 0;
+  }
 }
 
-.spazioRigaDisegnini div:first-child{
-    margin-left: auto;
+.spazioRigaDisegnini div:first-child {
+  margin-left: auto;
 }
 
-.spazioRigaDisegnini div:last-child{
-    margin-right: auto;
+.spazioRigaDisegnini div:last-child {
+  margin-right: auto;
 }
-
