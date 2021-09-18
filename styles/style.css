@@ -1,123 +1,123 @@
 /* ########################## */
 /* #        COLOR           # */
 /* ########################## */
-:root{
-    --background: #f5f2d8;
-    --balotta: #ffb241;
-    --lilly: #f5355f;
-    --bazza: #f1e050;
-    --maraglia: #aff150;
-    --green: #50f176;
+:root {
+  --background: #f5f2d8;
+  --balotta: #ffb241;
+  --lilly: #f5355f;
+  --bazza: #f1e050;
+  --maraglia: #aff150;
+  --green: #50f176;
 }
 
 /* ########################## */
 /* #        DEBUG           # */
 /* ########################## */
 
-/* div{
-    border: 1px solid red;
+/* div {
+  border: 1px solid red;
 } */
 
 /* ########################## */
 /* #        COMMONS         # */
 /* ########################## */
 @font-face {
-    font-family: 'OstrichSans-Heavy';
-    src:  url('OstrichSans-Heavy.otf') format('opentype');
+  font-family: "OstrichSans-Heavy";
+  src: url("OstrichSans-Heavy.otf") format("opentype");
 }
 
 @font-face {
-    font-family: 'OstrichSansRounded-Medium';
-    src:  url('OstrichSansRounded-Medium.otf') format('opentype');
+  font-family: "OstrichSansRounded-Medium";
+  src: url("OstrichSansRounded-Medium.otf") format("opentype");
 }
 
-.fontMedio{
-    font-family: 'OstrichSansRounded-Medium';
-    font-weight: 600;
-    letter-spacing: 2px;
+.fontMedio {
+  font-family: "OstrichSansRounded-Medium";
+  font-weight: 600;
+  letter-spacing: 2px;
 }
 
 * {
-    box-sizing: border-box;
-    font-family: 'OstrichSans-Heavy';
-    background-color: var(--background);
-    font-size: 30px;
-}
-
-@media screen and (max-width: 1100px){
-    *{
-        font-size: 25px;
-    }
-}
-
-header {
-    height: 120px;
-    margin-top: 20px;
-}
-
-.logo{
-    display: block;
-    height: 100%;
-    margin: auto;
-}
-
-.container{
-    margin: auto;
-    width: 90vw;
-    max-width: 1400px;
-}
-
-@media (min-width: 1101px) {
-    .flex{
-        display: flex;
-        flex-direction: row;
-    }
-}
-
-@media screen and (max-width: 1100px){
-    .flex{
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-.justifyText{
-    text-align: justify;
-}
-
-.centerText{
-    text-align: center;
-}
-
-.rightText{
-    text-align: right;
-}
-
-.defaultCursor{
-    cursor: default;
-}
-
-h2{
-    font-size: 80px;
-    margin: 0;
-}
-
-h4{
-    font-size: 60px;
-    margin-top: 0px;
-}
-
-h5{
-    font-size: 30px;
-    margin: 0;
-}
-
-.marginSpacer{
-    margin-top: 150px;
+  box-sizing: border-box;
+  font-family: "OstrichSans-Heavy";
+  background-color: var(--background);
+  font-size: 30px;
 }
 
 @media screen and (max-width: 1100px) {
-    .marginSpacer{
-        margin-top: 70px;
-    }
+  * {
+    font-size: 25px;
+  }
+}
+
+header {
+  height: 120px;
+  margin-top: 20px;
+}
+
+.logo {
+  display: block;
+  height: 100%;
+  margin: auto;
+}
+
+.container {
+  margin: auto;
+  width: 90vw;
+  max-width: 1400px;
+}
+
+@media (min-width: 1101px) {
+  .flex {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.justifyText {
+  text-align: justify;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.rightText {
+  text-align: right;
+}
+
+.defaultCursor {
+  cursor: default;
+}
+
+h2 {
+  font-size: 80px;
+  margin: 0;
+}
+
+h4 {
+  font-size: 60px;
+  margin-top: 0px;
+}
+
+h5 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.marginSpacer {
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 1100px) {
+  .marginSpacer {
+    margin-top: 70px;
+  }
 }
