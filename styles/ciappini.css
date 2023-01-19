@@ -1,0 +1,73 @@
+* {
+  background-color: var(--ciappino);
+}
+
+body {
+  color: #000000;
+}
+
+.descrizioneCiappini {
+  margin-top: 40px;
+  text-align: justify;
+}
+@media (min-width: 1101px) {
+  .ciappino {
+    margin-top: 30px;
+    padding: 1rem;
+    max-width: 50%;
+    box-shadow: 0 10px 0 -1px #000000;
+  }
+  .stats {
+    text-align: right;
+    padding: 0.5rem;
+    color: var(--bazza);
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .ciappino {
+    margin-top: 30px;
+    padding: 1rem;
+    max-width: 100%;
+    box-shadow: 0 10px 0 -1px #000000;
+  }
+  .stats {
+    margin-top: 1rem;
+    text-align: right;
+    padding: 0.5rem;
+    color: var(--bazza);
+  }
+
+  .row {
+    flex-direction: row;
+  }
+}
+
+.ciappino .flex {
+  padding-top: 0.5rem;
+}
+.ciappino > span {
+  font-size: 2rem;
+  background-color: #000000;
+  color: var(--ciappino);
+  padding: 0.5rem;
+}
+
+.label {
+  margin-top: auto;
+  margin-bottom: auto;
+  min-width: 35%;
+}
+
+/* ########################## */
+/* #        FOOTER         # */
+/* ########################## */
+
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  max-width: 1400px;
+  width: 90vw;
+}

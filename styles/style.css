@@ -2,11 +2,16 @@
 /* #        COLOR           # */
 /* ########################## */
 :root {
-  --background: #f5f2d8;
+  /* --background: #f5f2d8; */
+  --background: #000000;
   --balotta: #ffb241;
   --lilly: #f5355f;
   --bazza: #f1e050;
-  --maraglia: #aff150;
+  --cartola: #aff150;
+  /* --ciappino: #505cf1; */
+  --ciappino: #5875f3;
+  --sludra: #804e3b;
+  --spanizza: #40d4db;
   --green: #50f176;
 }
 
@@ -44,6 +49,10 @@
   font-size: 30px;
 }
 
+body {
+  color: #ffffff;
+}
+
 @media screen and (max-width: 1100px) {
   * {
     font-size: 25px;
@@ -65,6 +74,7 @@ header {
   margin: auto;
   width: 90vw;
   max-width: 1400px;
+  flex-wrap: wrap;
 }
 
 @media (min-width: 1101px) {
@@ -119,5 +129,16 @@ h5 {
 @media screen and (max-width: 1100px) {
   .marginSpacer {
     margin-top: 70px;
+  }
+}
+
+.backIcon {
+  height: 70px;
+  padding-left: 50px;
+}
+
+@media screen and (max-width: 1100px) {
+  .backIcon {
+    padding: 0;
   }
 }

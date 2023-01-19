@@ -2,6 +2,10 @@
 /* #        COMMONS         # */
 /* ########################## */
 
+body {
+  color: black;
+}
+
 @media screen and (min-width: 1101px) {
   h1 {
     font-size: 150px;
@@ -74,6 +78,10 @@
     width: 50%;
     padding: 0 30px 0 30px;
   }
+
+  .bottomDescExtended {
+    padding: 0 30px 0 30px;
+  }
 }
 
 @media screen and (max-width: 1100px) {
@@ -84,7 +92,7 @@
   }
 
   .fotoBirra {
-    max-height: 50vh;
+    max-height: 40vh;
   }
 
   .container .basicInfo {
@@ -105,8 +113,8 @@
     padding: 10px;
   }
 
-  .backIcon {
-    padding: 0;
+  .bottomDescExtended {
+    padding: 10px;
   }
 }
 

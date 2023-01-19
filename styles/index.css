@@ -96,11 +96,23 @@ footer {
   }
 }
 
+.headerEsperimenti {
+  text-align: center;
+  letter-spacing: 3px;
+  height: 70px;
+  margin-top: 30px;
+}
+
+.headerEsperimenti span {
+  font-size: 30px;
+}
+
 .containerBirra {
   width: 33%;
   margin: auto;
   padding: 0px 20px 0px 20px;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 1100px) {
@@ -110,32 +122,73 @@ footer {
   }
 }
 
+.highlightVerde {
+  color: var(--cartola);
+}
+
+.highlightGiallo {
+  color: var(--balotta);
+}
+
 a,
 a:visited {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .containerBirra a {
   display: block;
 }
 
-.boxBalotta:hover a,
-.boxBalotta a:hover {
+.boxBalotta a {
   color: var(--balotta);
-  box-shadow: 0 10px #000000;
+}
+.boxBalotta a:hover {
+  color: white;
+  box-shadow: 0 10px var(--balotta);
 }
 
-.boxBazza:hover a,
-.boxBazza a:hover {
+.boxBazza a {
   color: var(--bazza);
-  box-shadow: 0 10px #000000;
+}
+.boxBazza a:hover {
+  color: white;
+  box-shadow: 0 10px var(--bazza);
 }
 
-.boxMaraglia:hover a,
-.boxMaraglia a:hover {
-  color: var(--maraglia);
-  box-shadow: 0 10px #000000;
+.boxCartola a {
+  color: var(--cartola);
+}
+
+.boxCartola a:hover {
+  color: white;
+  box-shadow: 0 10px var(--cartola);
+}
+
+.boxSludra a {
+  color: var(--sludra);
+}
+
+.boxSludra a:hover {
+  color: white;
+  box-shadow: 0 10px var(--sludra);
+}
+
+.boxSpanizza a {
+  color: var(--spanizza);
+}
+.boxSpanizza a:hover {
+  color: white;
+  box-shadow: 0 10px var(--spanizza);
+}
+
+.boxCiappini a {
+  color: var(--ciappino);
+}
+
+.boxCiappini a:hover {
+  color: white;
+  box-shadow: 0 10px var(--ciappino);
 }
 
 .nomeBirra {
@@ -212,35 +265,6 @@ a:visited {
   margin: auto;
   margin-left: 20px;
   margin-right: 20px;
-}
-
-/* ########################## */
-/* #    SEZIONE GREEN       # */
-/* ########################## */
-
-.labelCounter {
-  font-size: 80px;
-  display: block;
-}
-
-@media screen and (max-width: 1100px) {
-  .labelCounter {
-    font-size: 60px;
-  }
-}
-.counterContainer {
-  text-align: center;
-  margin-top: 40px;
-}
-
-#counter {
-  font-size: 80px;
-}
-
-.counterUnderline {
-  width: 200px;
-  margin: auto;
-  box-shadow: 0 7px var(--green);
 }
 
 /* ########################## */
