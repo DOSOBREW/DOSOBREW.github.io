@@ -119,6 +119,7 @@ body {
 }
 
 .beerDescription span {
+  width: 80%;
   margin: auto;
   font-family: "OstrichSansRounded-Medium";
 }
