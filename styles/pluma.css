@@ -1,0 +1,12 @@
+.skyline {
+  background-image: url(../assets/skyline-pluma.svg);
+  height: 150px;
+}
+
+.overSkyline {
+  background-color: var(--pluma);
+}
+
+.underSkyline {
+  background-color: var(--secondary-pluma);
+}

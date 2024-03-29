@@ -2,13 +2,17 @@
 /* #        COLOR           # */
 /* ########################## */
 :root {
-  /* --background: #f5f2d8; */
   --background: #000000;
-  --balotta: #ffb241;
+  --balotta: #e1e673;
+  --secondary-balotta: #6b6bb1;
+  --bonale: #99cd65;
+  --secondary-bonale: #9f73b2;
+  --pluma: #fcbf97;
+  --secondary-pluma: #608dc9;
+
   --lilly: #f5355f;
   --bazza: #f1e050;
   --cartola: #aff150;
-  /* --ciappino: #505cf1; */
   --ciappino: #5875f3;
   --sludra: #804e3b;
   --spanizza: #40d4db;
@@ -60,8 +64,8 @@ body {
 }
 
 header {
-  height: 120px;
-  margin-top: 20px;
+  height: 140px;
+  padding-top: 20px;
 }
 
 .logo {

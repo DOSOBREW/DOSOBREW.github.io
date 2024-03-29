@@ -1,0 +1,12 @@
+.skyline {
+  background-image: url(../assets/skyline-bonale.svg);
+  height: 150px;
+}
+
+.overSkyline {
+  background-color: var(--bonale);
+}
+
+.underSkyline {
+  background-color: var(--secondary-bonale);
+}
